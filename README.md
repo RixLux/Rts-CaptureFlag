@@ -24,10 +24,10 @@
 ## <p align="center">🛠 Setup & Installation</p>
 
 ### 1️⃣ Clone the Repository
-
-git clone https://github.com/<username>/war-territory-game.git
-cd war-territory-game
-
+```
+git clone https://github.com/RixLux/Rts-CaptureFlag.git
+cd Rts-CaptureFlag
+```
 ### 2️⃣ Backend Setup
 
 ```
