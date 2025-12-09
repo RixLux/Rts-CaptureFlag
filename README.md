@@ -1,150 +1,154 @@
+---
 
-# ⚔ Territory War — Real-Time Strategy Multiplayer Game
+<h1 align="center">⚔️🌌 Territory War — Rise, Commander! 🌌⚔️</h1>
 
-A real-time territory capture game built using **Node.js**, **Express**, **Socket.IO**, **MongoDB**, and **Vite React**.  
-Players start with randomly assigned bases on a 30x30 grid, gather resources, build armies (Infantry, Archer, Cavalry, Siege), and fight to dominate the map.
+<p align="center">
+  <img src="https://i.imgur.com/xvxVN8F.gif" width="500" alt="Epic Battle Starts!">
+</p>
+
+<p align="center">
+  💥 Real-Time Strategy Multiplayer Game 💥  
+  <em>“Claim the land, command your army, and rewrite destiny!”</em>
+</p>
 
 ---
 
-## 🚀 Tech Stack
+## <p align="center">🚀 Game Technology Arsenal</p>
 
-| Category | Technology |
-|---------|-----------|
-Backend | Node.js, Express, Socket.IO |
-Frontend | Vite + React |
-Database | MongoDB Atlas (BSON/JSON) |
-Auth | JWT Authentication |
-Email | Nodemailer (verification, notifications) |
-Version Control | GitHub (PR workflow, branches) |
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,react,mongodb,git,vercel" />
+</p>
 
 ---
 
-## 📦 Project Structure
+## <p align="center">🛠 Setup & Installation</p>
 
+### 1️⃣ Clone the Repository
 
-war-territory-game/
-├── server/         # Backend
-└── client/         # Frontend
-
-
----
-
-## 🛠 Setup Instructions
-
-### 1. Clone the Repository
 git clone https://github.com/<username>/war-territory-game.git
 cd war-territory-game
 
-### 2. Backend Setup
+### 2️⃣ Backend Setup
+
+```
 cd server
 npm install
+```
 
-### 3. Environment Configuration
+### 3️⃣ Environment Variables (.env in /server)
 
-Create `.env` inside `/server`:
-
+```
 MONGO_URI=your-mongo-connection-string
 JWT_SECRET=your-secret-key
 EMAIL_USER=your-email
 EMAIL_PASS=your-email-password
+```
 
+### 4️⃣ Start Backend
 
-Use the `.env.example` as reference.
-
-### 4. Start Backend
+```
 npm run dev
-
-Default port: **3000**
+```
 
 ---
 
-## 🎨 Frontend Setup
+## <p align="center">🎨 Frontend Setup</p>
 
-
+```
 cd ../client
 npm install
 npm run dev
+```
 
-
-Runs on default **Vite dev server**.
+✨ Starts Vite Dev Server (default port)
 
 ---
 
-## 🧩 Git Workflow
+## <p align="center">🧩 Git Workflow Spellbook</p>
 
-### Branch Strategy
+```
+main        → Production ready
+dev         → Integration branch
+feature/*   → New tasks / features
+```
 
-
-main        → production ready
-dev         → integration branch
-feature/*   → new features & tasks
-
-
-### Creating a new feature branch
-
-
+```
 git checkout dev
 git pull
 git checkout -b feature/<feature-name>
+```
 
-
-### Submitting work
-
-
+```
 git add .
-git commit -m "Description of update"
+git commit -m "Your update message"
 git push -u origin feature/<feature-name>
+```
 
-
-Then open a **Pull Request to `dev`**.
-
----
-
-## 📌 Project Features (Planned)
-
-| Feature                          | Status     |
-| -------------------------------- | ---------- |
-| User Auth + Email Verification   | 🟡 Planned |
-| 30x30 Map Grid                   | 🟡 Planned |
-| Real-time Tile Capture           | 🟡 Planned |
-| Resource Generation              | 🟡 Planned |
-| Army Units & Battle Engine       | 🟡 Planned |
-| Real-time Chat                   | 🟡 Planned |
-| Offline Battle Summary via Email | 🟡 Planned |
-| Deployment (Render / Vercel)     | 🟡 Planned |
+📬 Then open a Pull Request → `dev`
 
 ---
 
-## 📅 Development Roadmap
+## <p align="center">📌 Game Features (in progress!)</p>
 
-| Phase | Goal                                  |
-| ----- | ------------------------------------- |
-| 1     | Repo setup & database connection      |
-| 2     | Auth system + email                   |
-| 3     | Map system + socket real-time updates |
-| 4     | Resource & unit mechanics             |
-| 5     | Battle system                         |
-| 6     | Chat, alliances, ranking              |
-| 7     | UI polish + Deployment                |
-
----
-
-## 🤝 Contribution Guidelines
-
-* Commit frequently and clearly
-* PRs must be reviewed before merge
-* Do not push directly to `main`
-* Do not commit `.env` or secrets
+| Feature                      | Status     |
+| ---------------------------- | ---------- |
+| Auth + Email Verification    | 🟡 Planned |
+| 30x30 Tile Map               | 🟡 Planned |
+| Real-Time Tile Capture       | 🟡 Planned |
+| Resource Generation          | 🟡 Planned |
+| Army Units & Battle Engine   | 🟡 Planned |
+| Real-Time Chat               | 🟡 Planned |
+| Offline Combat Summary Email | 🟡 Planned |
+| Deployment (Render / Vercel) | 🟡 Planned |
 
 ---
 
-## 📄 License
+## <p align="center">📅 Roadmap to Glory</p>
 
-MIT License — free to use and modify.
+| Phase | Goal                      |
+| ----- | ------------------------- |
+| 1     | Repo + Database           |
+| 2     | Auth System               |
+| 3     | Real-time Map (Socket.IO) |
+| 4     | Resources / Economy       |
+| 5     | Battle Engine             |
+| 6     | Chat & Alliances          |
+| 7     | UI Polish + Deployment    |
 
 ---
 
-## 💬 Contact / Collaboration
+## <p align="center">🤝 Contribution Code of Honor</p>
 
-For suggestions, improvements or issues → open an Issue ticket in the repository.
+✨ PR reviews required
+✨ No pushing to `main`
+✨ Clear commit messages
+✨ Keep secrets out of repo (`.env`)
+
+---
+
+## <p align="center">📜 License</p>
+
+**MIT License** — Free as the wind 💫
+
+---
+
+## <p align="center">🌟 Join the War Council</p>
+
+<p align="center">
+  <a href="https://yourwebsite.com"><img src="https://img.shields.io/badge/-Website-ffb6c1?style=for-the-badge&logo=safari&logoColor=white"></a>
+  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/-LinkedIn-89b9c9?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:youremail@example.com"><img src="https://img.shields.io/badge/-Email-f8bbd0?style=for-the-badge&logo=gmail&logoColor=white"></a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://i.imgur.com/qLo0LKH.gif" width="500">
+</p>
+
+<h3 align="center"><em>“Strategy, courage, and unity will conquer every battlefield.” ✨</em></h3>
+```
+
+---
+
 
