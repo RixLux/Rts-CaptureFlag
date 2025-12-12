@@ -1,0 +1,6 @@
+PORT=3000
+MONGO_URI=mongodb+srv://irhamnobel_db_user:ZDI16OkLTcf4Qgu7@rts-captureflag.jzhmzys.mongodb.net/?appName=Rts-CaptureFlag
+JWT_SECRET=gH7kViLd2CE9cCyuhEsHUuPAYmvcXMYVFIMsJk75tCU=
+EMAIL_USER=
+EMAIL_PASS=
+
