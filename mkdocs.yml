@@ -1,0 +1,36 @@
+site_name: Rts-CaptureFlag
+site_description: Documentation
+site_url: https://rixlux.github.io/Rts-CaptureFlag/
+
+repo_name: RixLux/Rts-CaptureFlag
+repo_url: https://github.com/RixLux/Rts-CaptureFlag
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - search.share
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - API Reference: api.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
